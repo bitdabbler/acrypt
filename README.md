@@ -7,7 +7,7 @@ Secure password hashing using the Argon2id hashing algorithm.
 ```go
 import (
     // ...
-    github.com/bitdabbler/acrypt
+    "github.com/bitdabbler/acrypt"
 )
 ```
 
