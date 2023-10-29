@@ -4,6 +4,13 @@
 
 Secure password hashing using the Argon2id hashing algorithm.
 
+```go
+import (
+    // ...
+    github.com/bitdabbler/acrypt
+)
+```
+
 ## Usage
 
 ### Simple API
@@ -12,12 +19,6 @@ The simplest API accepts password inputs directly as strings.
 
 #### Hashing a password
 
-```go
-import (
-    // ...
-    github.com/bitdabbler/acrypt
-)
-```
 ```go
 pwd := "secret"
 hash, err := acrypt.Hash(pwd)
